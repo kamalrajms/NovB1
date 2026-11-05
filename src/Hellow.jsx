@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function Hellow() {
+export default function Hellow(props) {
   return (
     <div>
-      <h2>Hellow</h2>
+      <h2>
+        Hellow {props.firstName}--{props.age}
+      </h2>
     </div>
   );
 }
