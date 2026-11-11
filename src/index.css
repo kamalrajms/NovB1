@@ -1,0 +1,14 @@
+.Greeting {
+  background-color: aqua;
+  padding: 20px;
+}
+.Hello {
+  background-color: blue;
+  color: aliceblue;
+}
+.destructure {
+  margin: 400px;
+}
+.listRender {
+  margin: 400px;
+}

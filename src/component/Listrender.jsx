@@ -1,4 +1,5 @@
 import React from "react";
+import Style from "./ListRender.module.css"
 
 export default function Listrender() {
   const fruits = ["apple", "banana", "orange", "hjbfjbf", "wjehfvewhfb"];
@@ -9,7 +10,7 @@ export default function Listrender() {
     { id: 3, name: "dravid" },
   ];
   return (
-    <div>
+    <div className={Style.listRender}>
       <h2>List rendering</h2>
       {fruits.map((name, ind) => (
         <div key={ind}>

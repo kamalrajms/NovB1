@@ -63,3 +63,37 @@
     ))
 
     new array=[2,4,6,8]
+
+
+10/11/2026
+
+## Style in react 
+
+    Global Style -- app.css && index.css are called Global Style
+    local Style  -- we need to create a seperete css file for the component
+    Module Style -- we need to create a seperete css file for a component 
+                    and we need to mension the file name as eg:[filename.module.css]
+    inline Style -- to implement inline style we need to declear 
+                    Style attribute in {{ padding:"20px"}}
+    Object Style -- we need to declear styleing properties as on Object
+                    in keys:value pair.
+
+11/11/2026
+
+## useState()
+
+    useState is a react hook that allows you to add state (data that can 
+    change over time) to a functional component.
+
+    Normally ,in js function ,variables disappear after the function runs,
+    But with useState ,react remember value b/w re-render.
+
+
+    syntax:
+
+    const [state,setState]=useState(initialValue)
+    const [count,setCount]=useState(5)
+
+    state -- the currrent value of the state variables
+    setState -- a function that update the state
+    initialValue -- the starting value of the state.
